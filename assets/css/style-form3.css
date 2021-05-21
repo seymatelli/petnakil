@@ -1,0 +1,82 @@
+* {
+  font-family: "Roboto";
+}
+body {
+  background-image: url("../img/unnamed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.pet1,
+.pet2 {
+  background-color: rgba(255, 178, 247, 0.89);
+  border: 0;
+  padding: 0;
+}
+.pet2 {
+  background-color: rgba(253, 244, 252, 0);
+  margin-top: -2rem;
+  height: 60vh;
+}
+.yazi h3,
+.yazi h4 {
+  text-align: center;
+  color: rgb(94, 86, 86);
+}
+/*NAV BAŞLANGIÇ*/
+.nav-pills .nav-item .active {
+  background-color: rgb(247, 116, 29);
+}
+.nav-pills .nav-item {
+  background-color: rgb(111, 104, 119);
+  align-items: center;
+}
+.nav-pills .nav-link {
+  color: white;
+  font-weight: bold;
+}
+/*NAV BİTİŞ*/
+
+/* PET1 BAŞLANGIÇ*/
+.pet2 .simple {
+  text-align: center;
+  padding: 1rem;
+}
+
+.pet2 p {
+  text-align: center;
+}
+.pet2 .next {
+  text-align: right;
+  margin: 1rem;
+}
+.pet2 .next input {
+  background-color: rgb(247, 116, 29);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  width: 6rem;
+}
+.hakkimizda label {
+  color: gray;
+}
+.iletisim h5 {
+  color: gray;
+  margin-bottom: 2rem;
+  text-align: start;
+}
+.iletisim .btn-secondary {
+  background-color: rgb(247, 116, 29);
+  border: 0;
+}
+
+.iletisim {
+  text-align: end;
+}
+/* PET1 BİTİŞ*/
